@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("https://assets.pokemon.com//assets/cms2/img/misc/virtual-backgrounds/masters/forest.jpg");
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.up-head {
+    text-align: center;
+}
+
+.heading {
+    font-size: 6rem;
+    color: #15134c;
+}
+
+.search {
+    margin: 10px;
+}
+
+input,
+button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin: 4px;
+}
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px;
+}
+
+.pokDiv {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    text-transform: capitalize;
+    gap: 10px;
+}
+
+
+
+.pokDiv>p {
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 5px;
+}
