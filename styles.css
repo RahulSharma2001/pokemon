@@ -9,6 +9,7 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .up-head {
@@ -30,6 +31,13 @@ button {
     border-radius: 10px;
     border: none;
     margin: 4px;
+    cursor: pointer;
+}
+
+input,
+button:hover {
+
+    box-shadow: 0 0 10px red;
 }
 
 #main {
@@ -41,6 +49,7 @@ button {
 }
 
 .pokDiv {
+    width: 250px;
     background-color: white;
     padding: 10px;
     display: flex;
